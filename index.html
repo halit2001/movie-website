@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Playing Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo"><a href="index.html">Movies</a></div>
+            <nav>
+                <ul>
+                    <li>
+                        <div class="search-flex">
+                            <form action="search.html" class="search-form">
+                                <input type="text" id="search-term" name="search-term" placeholder="Enter search term">
+                                <button class="btn" type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Listing now playing Movies  -->
+    <section id="now-playing-movies">
+        <div class="container">
+            <h2 class="bg-primary">Now Playing Movies</h2>
+            <div id="now-playing-movies-wrapper" class="grid"></div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/83ed0fdb9c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
